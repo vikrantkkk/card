@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  height: 370px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoimg{
+    height: 50px;
+    width: 50px;
+}
+
+.logo{
+    border-radius: 90%;
+    object-fit: cover;
+}
+
+.imgtext{
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.paragraph, span {
+    color: gray;
+    padding: 10px;
+}
